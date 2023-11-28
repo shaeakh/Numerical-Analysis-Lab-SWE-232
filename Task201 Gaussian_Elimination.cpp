@@ -47,7 +47,7 @@ int main(){
         ans[i]=ans[i]/mat[i][i];
     }
     cout<<"Ans no 1 :\n";
-    for(i=0;i<n;i++) printf("    a%d\t =\t%.2lf\n",i,ans[i]);
+    for(i=0;i<n;i++) printf("    a%d\t =\t%.2lf\n",i+1,ans[i]);
 
     cout<<"Ans no 2 :\n";
     double v = ans[0]*6*6 + ans[1]*6 + ans[2];
