@@ -47,11 +47,11 @@ int main(){
         ans[i]=ans[i]/mat[i][i];
     }
     cout<<"Ans no 1 :\n";
-    for(i=0;i<n;i++) cout<<"    a"<<i+1<<"\t =\t"<<ans[i]<<endl;
+    for(i=0;i<n;i++) printf("    a%d\t =\t%.2lf\n",i,ans[i]);
 
     cout<<"Ans no 2 :\n";
     double v = ans[0]*6*6 + ans[1]*6 + ans[2];
-    cout<<"    velocity at t=6 second : v = "<<v<<endl;
+    printf("    velocity at t=6 second : v = %.2lf",v);
 
 
 
